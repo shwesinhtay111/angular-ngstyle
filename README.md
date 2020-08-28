@@ -29,6 +29,7 @@ Example:
 
 Change Style Dynamically
 ========================
+
 In component,
 
 color: string= 'red'
@@ -41,10 +42,12 @@ In html template,
 
 Ternary operator
 ==================
+
 <div [ngStyle]="{'background-color':status === 'error' ? 'red' : 'blue' }"></<div>
 
 ngStyle multiple attributes
 ===========================
+
 <p [ngStyle]="{'color': 'purple',
 
                'font-size': '20px',
