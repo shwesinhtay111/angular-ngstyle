@@ -10,21 +10,21 @@ ngSytle Syntax
 
 Syntax:
 
-<element [ngStyle]="{'styleNames': styleExp}">...</element>
+    <element [ngStyle]="{'styleNames': styleExp}">...</element>
 
 Example:
 
-<some-element [ngStyle]="{'font-size': '20px'}">Set Font size to 20px</some-element>
+    <some-element [ngStyle]="{'font-size': '20px'}">Set Font size to 20px</some-element>
 
 =================================================================
 
 Syntax:
 
-<element [ngStyle]="{'styleName.unit': widthExp}">...</element>
+    <element [ngStyle]="{'styleName.unit': widthExp}">...</element>
  
 Example:
 
-<some-element[ngStyle]="{'font-size.em': '3'}">...</some-element>
+    <some-element[ngStyle]="{'font-size.em': '3'}">...</some-element>
 
 
 Change Style Dynamically
@@ -32,13 +32,13 @@ Change Style Dynamically
 
 In component,
 
-color: string= 'red'
+    color: string= 'red'
 
 In html template,
 
-<input [(ngModel)]="color" />
+    <input [(ngModel)]="color" />
 
-<div [ngStyle]="{'color': color}">Change my color</div>
+    <div [ngStyle]="{'color': color}">Change my color</div>
 
 Ternary operator
 ==================
@@ -62,9 +62,9 @@ In template,
 
 Specifying CSS Units in ngStyle
 ===============================
-<input [(ngModel)]="size" /> 
+    <input [(ngModel)]="size" /> 
 
-<div [ngStyle]="{'font-size.px': size}">Change my size</div>
+    <div [ngStyle]="{'font-size.px': size}">Change my size</div>
 
 Using object from Controller
 ================================
@@ -85,7 +85,7 @@ styleClass: StyleClass = new StyleClass();
 
 In template,
 
-<div [ngStyle]="styleClass">size & Color</div>
+    <div [ngStyle]="styleClass">size & Color</div>
 
 
  
