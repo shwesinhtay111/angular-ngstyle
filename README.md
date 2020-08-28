@@ -7,6 +7,7 @@ ngStyle
 
 ngSytle Syntax
 ==============
+
 Syntax:
 
 <element [ngStyle]="{'styleNames': styleExp}">...</element>
@@ -16,6 +17,7 @@ Example:
 <some-element [ngStyle]="{'font-size': '20px'}">Set Font size to 20px</some-element>
 
 =================================================================
+
 Syntax:
 
 <element [ngStyle]="{'styleName.unit': widthExp}">...</element>
@@ -109,4 +111,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README
