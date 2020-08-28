@@ -44,13 +44,13 @@ Ternary operator
 ==================
 In template,
 
-<div [ngStyle]="{'background-color':status === 'error' ? 'red' : 'blue' }"></<div>
+     <div [ngStyle]="{'background-color':status === 'error' ? 'red' : 'blue' }"></<div>
 
 ngStyle multiple attributes
 ===========================
 In template,
 
-<p [ngStyle]="{'color': 'purple',
+      <p [ngStyle]="{'color': 'purple',
 
                'font-size': '20px',
                
@@ -58,7 +58,7 @@ In template,
                
      Multiple styles
      
-</p>
+    </p>
 
 Specifying CSS Units in ngStyle
 ===============================
