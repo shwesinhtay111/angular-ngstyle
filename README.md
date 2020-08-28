@@ -42,11 +42,13 @@ In html template,
 
 Ternary operator
 ==================
+In template,
 
 <div [ngStyle]="{'background-color':status === 'error' ? 'red' : 'blue' }"></<div>
 
 ngStyle multiple attributes
 ===========================
+In template,
 
 <p [ngStyle]="{'color': 'purple',
 
